@@ -14,10 +14,10 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '//localhost/water-project/';
+$config['base_url']	= '//localhost/data-visualization/';
 
 $config['site_title'] = 'Local Impacts of Global Climate Change';
-$config['site_description'] = 'Survey Website';
+$config['site_description'] = 'Data Visualization Water Project Website';
 $config['site_author'] = 'University of Texas at El Paso';
 $config['site_keywords'] = '';
 

@@ -37,8 +37,16 @@
     <script src="<?php echo base_url(JS."morris/jquery.min.js");?>"></script>
     <script src="<?php echo base_url(JS."morris/raphael-min.js");?>"></script>
     <script src="<?php echo base_url(JS."morris/morris.min.js");?>"></script>
+    <!-- Read CSV File Java Script -->
+    <script src="<?php echo base_url(JS."graphs/read-file.js");?>"></script>
+    <!-- Morris Water Customer Retail Data End of Fiscal Year Java Script-->
+    <script src="<?php echo base_url(JS."graphs/water-customer-retail-data.js");?>"></script>
     <!-- Morris Line Graph Java Script-->
     <script src="<?php echo base_url(JS."graphs/linegraph.js");?>"></script>
+    <!-- Morris Area Graph Java Script-->
+    <script src="<?php echo base_url(JS."graphs/areagraph.js");?>"></script>
+    <!-- Morris Bar Graph Java Script-->
+    <script src="<?php echo base_url(JS."graphs/bargraph.js");?>"></script>
     <!-- Main body D3 -  Bar Chart Java Script -->
     <script src="<?php echo base_url(JS."graphs/chart.js");?>"></script>
     <!-- Side bar Java Script -->

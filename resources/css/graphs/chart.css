@@ -9,3 +9,11 @@
 #linegraph {
     height: 250px;
 }
+#bargraph {
+    height: 250px;
+    width: 250px;
+}
+#areagraph {
+    height: 250px;
+    width: 250px;
+}
