@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'ilinkbeta.cybershare.utep.edu';
-$db['default']['username'] = 'climatesurvey';
-$db['default']['password'] = 'PwxCMGYJtzfzTjAM';
-$db['default']['database'] = 'climatesurvey';
+$db['default']['hostname'] = '';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
