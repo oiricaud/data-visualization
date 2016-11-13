@@ -26,6 +26,7 @@ class MY_Controller extends CI_Controller{
     function __construct(){
 
        parent::__construct();
+        //I don't know what this is
         $this->data["uri_segment_1"] = $this->uri->segment(1);
         $this->data["uri_segment_2"] = $this->uri->segment(2);
 
@@ -70,6 +71,7 @@ class MY_Controller extends CI_Controller{
 
                 //data
                 $toBody["content_body"] = $this->load->view($view, array_merge($this->data, $toTpl), true);
+
 
                 //nav menu
                 if ($this->hasNav) {

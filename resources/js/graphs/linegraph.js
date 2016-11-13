@@ -5,7 +5,7 @@ new Morris.Line({
     // the chart.
     data: [
 
-        { year: currYear, value: 162810 },
+        { year: '2002', value: 162810 },
         { year: '2003', value: 167753 },
         { year: '2004', value: 171607 },
         { year: '2006', value: 174922 },

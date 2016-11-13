@@ -31,12 +31,14 @@ class Home extends MY_Controller {
         $this->_render('pages/bar-graph', $renderData, $folder);
     }
     public function upload($renderData=""){
+        $this->load->database();
         $this->title= "Upload";
         $this->keywords = "upload-csv";
         $this->type_of_graph = "null";
         $this->description = "Water Project";
         $this->author = "Oscar I. Ricaud";
         $folder = 'template';
-        $this->_render('pages/bar-graph', $renderData, $folder);
+        $this->_render('pages/upload', $renderData, $folder);
     }
+
 }
