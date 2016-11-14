@@ -18,6 +18,9 @@
                 <li class="Sidebar-navItem" data-toggle="modal" data-target="#importModal">
                     <a href="#">Import graph</a>
                 </li>
+                <li class="Sidebar-navItem" data-toggle="modal" data-target="#importModal">
+                    <a href="<?php echo site_url('home/userscenario')?>">JSON</a>
+                </li>
             </ul>
         </nav>
 

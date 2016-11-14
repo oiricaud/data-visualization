@@ -41,4 +41,14 @@ class Home extends MY_Controller {
         $this->_render('pages/upload', $renderData, $folder);
     }
 
+    public function userscenario($renderData=""){
+        $this->title= "Testing user-scenario-output-sample";
+        $this->keywords = "JSON";
+        $this->type_of_graph = "controlAngular";
+        $this->description = "Water Project";
+        $this->author = "Oscar I. Ricaud";
+        $folder = 'template';
+        $this->_render('pages/test-userscenario', $renderData, $folder);
+    }
+
 }

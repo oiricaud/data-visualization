@@ -19,8 +19,6 @@
         <link rel="stylesheet" href="<?php echo base_url(CSS."navbar/navstyle.css");?>">
         <!-- Side bar CSS  -->
         <link rel="stylesheet" href="<?php echo base_url(CSS."sidebar/sidebar.css");?>">
-        <!-- Awesome font CSS -->
-        <link rel="stylesheet" href="<?php echo base_url(CSS."font/font-awesome.min.css");?>">
     </head>
 
     <title> <?php echo $title ?> </title>
@@ -36,7 +34,7 @@
     <!-- Morris Java Script Library -->
     <script src="<?php echo base_url(JS."morris/jquery.min.js");?>"></script>
     <script src="<?php echo base_url(JS."morris/raphael-min.js");?>"></script>
-    <script src="<?php echo base_url(JS."morris/morris.min.js");?>"></script>
+
     <!-- Read CSV File Java Script -->
     <script src="<?php echo base_url(JS."graphs/read-file.js");?>"></script>
     <!-- Morris Water Customer Retail Data End of Fiscal Year Java Script-->
@@ -53,5 +51,9 @@
     <script src="<?php echo base_url(JS."sidebar/angular.min.js");?>"></script>
     <!-- Navigation top bar Java Script-->
     <script src="<?php echo base_url(JS."sidebar/index.js");?>"></script>
+    <!-- ANGULAR V1 -->
+    <script src="<?php echo base_url(JS."angular/angular.js");?>"></script>
+    <!-- JSON -->
+    <script src="<?php echo base_url(JS."graphs/userscenario-output-sample.json");?>"></script>
 
 </html>
